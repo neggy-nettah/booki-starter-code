@@ -1,0 +1,214 @@
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px){
+
+    body{
+        padding: 0px;
+    }
+
+    /********* header ***********/
+    .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 115px;
+    font-size: 16px;
+    width: 100%;
+    }
+
+    .logo {
+        height: 79px;
+        padding: 30px;
+    }
+
+    .info_groupe_title {
+        margin: 40px 20px 8px 20px;
+        font-size: 22px;
+    }
+
+    .info_groupe_text {
+        margin: 0px 20px;
+    }
+
+    .menu_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .nav_li {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .nav_li a {
+        border-bottom: 2px solid rgba(242, 242, 242, 1);
+        width: 100%;
+        text-decoration: none;
+        align-items: center;
+        position: relative;
+    }
+    
+    .nav_ul {
+        border-bottom: 3px solid transparent;
+        text-align: center;
+    }
+
+    .nav_li a:hover {
+        color: #0065FC;
+        border-bottom: 2px rgba(0, 101, 252, 1) inset;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .filter_bar_text {
+        margin: 0px 20px;
+    }
+
+    .filter_bar {
+        flex-direction: column;
+    }
+
+    .filter_bar_list {
+        margin: 15px 18px; 
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .search_bar {
+        height: 49px;
+        width: 89%;
+        margin: 35px 20px 35px 20px;
+        justify-content: space-between;
+        border: rgba(242, 242, 242, 1) solid 1px;
+        box-shadow: none;
+    }
+
+    .fa-location-dot {
+        border-radius: 12px 0px 0px 12px;
+        display: flex;
+    }
+
+    .fa-magnifying-glass {
+        visibility: visible;
+        color: white;
+    }
+
+    .search_bar button {
+        width: 12%;
+        min-width: 50px;
+        height: 100%;
+        border-radius: 12px;
+        display: flex;
+        background: rgba(0, 101, 252, 1);
+        color: white;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    button span {
+        display: none;
+    }
+
+    .search_form {
+        width: 100%;
+        display: flex;
+        text-align-last: center;
+    }
+
+    .filter_bar_list li {
+        flex: 1 0 30%;
+        font-size: 16px;
+        padding: 10px;
+        justify-content: center;
+        height: 30px;
+    }
+
+    .filter_bar_info{
+        margin: 0px 20px 35px 20px;
+        align-items: center;
+    }
+
+    /***** populaires ********/
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    /***** Hebergements ******/
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .hebergements_card {
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        margin-top: 6px;
+        background-color: white;
+    }
+
+    .hebergements-link {
+        flex: 1 0 30%;
+    }
+
+    /****** Les populaires ***********/
+
+    .populaires-cards .hebergements_card img {
+        object-fit: cover;
+        height: 62%;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .article-activites {
+        flex-wrap: wrap;
+    }
+    
+    .activites-link {
+        flex: 100%;
+    }
+
+    footer div {
+        width: 80%;
+        padding: 0px 20px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+    
+    footer {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .title-footer {
+        margin: 30px 0px 5px 0px;
+    }
+
+    .footer-link {
+        width: 100%;
+    }
+}

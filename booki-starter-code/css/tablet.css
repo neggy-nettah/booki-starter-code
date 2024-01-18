@@ -1,0 +1,59 @@
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    /***** header ******/
+
+
+    /******** Filter Bar ***********/
+
+    .filter_bar{
+        flex-direction: column;
+    }
+    .filter_bar_list{
+        padding: 0px;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+    /******** Section Activitées ********/
+
+    .activites-link {
+        height: 270px;
+    }
+
+    .article-activites .card img {
+        height: 75%;
+    }
+
+}
